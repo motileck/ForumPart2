@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ForumPart2.Common\ForumPart2.Common.csproj" />
+    <ProjectReference Include="..\ForumPart2.DAL\ForumPart2.DAL.csproj" />
+    <ProjectReference Include="..\ForumParts2.Models\ForumParts2.Models.csproj" />
+  </ItemGroup>
+
+</Project>
